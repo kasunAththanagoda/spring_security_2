@@ -8,11 +8,12 @@ import org.springframework.security.core.userdetails.UserDetails;
 import java.util.Collection;
 import java.util.Collections;
 
-public class CustomeUserDetails implements UserDetails {
+public class CustomerUserDetails implements UserDetails {
 
     private User user;
 
-    public CustomeUserDetails(User user) {
+    public CustomerUserDetails(User user) {
+        super();
         this.user = user;
     }
 
